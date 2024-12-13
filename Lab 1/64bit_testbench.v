@@ -1,4 +1,6 @@
-timescale 1ns / 1ps
+// Code your testbench here
+// or browse Examples
+`timescale 1ns / 1ps
 module tb_sixty_four_bit_cla_adder;
 
 // Inputs
@@ -16,7 +18,7 @@ sixtyfour_bit_cla_adder uut (
     .B(B),
     .cin(cin),
     .S(S),
-    .Cout(cout)
+    .cout(cout)
 );
 
 initial begin
