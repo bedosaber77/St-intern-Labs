@@ -138,8 +138,8 @@ module sixteen_bit_cla_adder  (
     .Gin(g),
     .cin(cin),
     .cout(carry_out),
-    .Pout(), // Remove if unused
-    .Gout()  // Remove if unused
+    .Pout(), 
+    .Gout()  
   );
 
   // Generate the sum
